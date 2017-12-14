@@ -29,3 +29,5 @@ Workflow for editing / saving a custom dashbord is simply:
 # Important
 
 This feature is only available in grafana master branch, and is scheduled to be release with Grafana 4.7! Check here: https://github.com/grafana/grafana/milestone/72
+
+If you consider to use this approach for your code, I suggest you tag the grafana/grafana:master with your own tag and use that image instead, so that you are not suprised if grafana/grafana:master is suddenly not so stable.
