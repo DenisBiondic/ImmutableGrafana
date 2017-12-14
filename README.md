@@ -2,7 +2,17 @@
 
 Immutable Grafana with dashboard &amp; datasource as code
 
-Test / build / play around with
+
+# Important
+
+This feature is only available in grafana master branch, and is scheduled to be release with Grafana 4.7! Check here: https://github.com/grafana/grafana/milestone/72
+
+If you consider to use this approach for your code, I suggest you tag the grafana/grafana:master with your own tag and use that image instead, so that you are not suprised if grafana/grafana:master is suddenly not so stable.
+
+# Starting the project
+
+Start / run / play around with:
+
 ```
 docker-compose up
 ```
@@ -25,9 +35,3 @@ Workflow for editing / saving a custom dashbord is simply:
 - edit the dashboard directly in grafana
 - export the dashboard to JSON
 - save the JSON file here in sources (dashboard folder)
-
-# Important
-
-This feature is only available in grafana master branch, and is scheduled to be release with Grafana 4.7! Check here: https://github.com/grafana/grafana/milestone/72
-
-If you consider to use this approach for your code, I suggest you tag the grafana/grafana:master with your own tag and use that image instead, so that you are not suprised if grafana/grafana:master is suddenly not so stable.
