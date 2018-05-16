@@ -1,6 +1,10 @@
+# Note on 16.05.2018:
+
+for the latest working version with grafana > 5 you can check an example here: https://github.com/istio/istio/tree/master/addons/grafana
+
 # Immutable Grafana
 
-Immutable Grafana with dashboard &amp; datasource as code
+Immutable Grafana with dashboard &amp; datasource as code.
 
 
 # Important
